@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Plan progress pill",
+    "description": "Shows the current session plan and completion progress at the top-right of the UI; collapses to a pill, expands to the checklist."
+  }
+}
