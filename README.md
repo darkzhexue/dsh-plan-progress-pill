@@ -19,18 +19,19 @@ A collapsible plan / progress capsule pinned to the top-right overlay of the DSH
 
 ## 安装
 
-```sh
-dsh plugin --profile web add dsh-plan-progress-pill
-```
+推荐从源码安装（npm 包 `dsh-plan-progress-pill` 尚在发布流程中）：
 
-桌面版也可以从插件市场安装，或从本仓库源码安装：
+1. 克隆仓库：
 
-```sh
-git clone https://github.com/darkzhexue/dsh-plan-progress-pill
-dsh plugin --profile web add <本地目录>
-```
+   ```sh
+   git clone https://github.com/darkzhexue/dsh-plan-progress-pill
+   ```
 
-安装后在会话页右上角出现胶囊；让 agent 使用 `todo_write` 更新任务清单即可看到进度。
+2. 安装本地目录：桌面版打开「插件」页面 → 安装 bundle → 选择克隆下来的目录；或用 dsh CLI 安装该本地目录。
+
+3. 刷新会话页，右上角出现胶囊；让 agent 用 `todo_write` 更新任务清单即可看到进度。
+
+也可以从 [Release](https://github.com/darkzhexue/dsh-plan-progress-pill/releases) 下载预构建包 `dsh-plan-progress-pill.tgz`，解压后同样用插件管理器安装该目录（无需构建工具）。
 
 ## 兼容性
 
